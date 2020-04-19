@@ -1,8 +1,9 @@
 {
   "name": "vertical-writing-tokenizer",
   "author": "kento-oka <kento-oka@kentoka.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
+  "repository": "https://github.com/kento-oka/vertical-writing-tokenizer",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
