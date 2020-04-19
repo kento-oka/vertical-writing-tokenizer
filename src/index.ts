@@ -1,7 +1,11 @@
-export default () => {
-  console.debug('hello world!!')
+type Token = PlainToken
+
+interface BaseToken<T extends string> {
+  type: T
 }
 
-export const work = () => {
-  console.debug('yes. it works!')
+interface PlainToken extends BaseToken<'plain'> {
+  text: string
 }
+
+export default (text: string): readonly Token[] => ([{type:'plain', text}])
