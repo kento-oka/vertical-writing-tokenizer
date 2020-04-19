@@ -1,0 +1,19 @@
+{
+  "name": "vertical-writing-tokenizer",
+  "author": "kento-oka <kento-oka@kentoka.com>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
